@@ -7,18 +7,40 @@
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
-nav{
+header{
     padding: 36px 120px;
-    text-align: center;
+    background-color: #FFFFFF;
+}
+nav{
+    width: 1600px;
+    height: 92px;
+    padding: 16px 120px 16px 120px;
     display: flex;
     justify-content: space-between;
+    gap: 346px;
+
+}
+nav .meno{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    gap: 32px;
+    align-items: center;
+}
+nav .meno a{
+    font-size: 16px;
+    color: #000000;
+    text-decoration: none;
 }
 .logo{
     width: 139px;
     height: 60px;
 }
-nav.ul{
-    display: flex;
-    justify-content: space-between;
-    gap: 32px;
+.btn{
+    font-size: 16px;
+    width: 164px;
+    height: 44px;
+    align-items: center;
+    padding: 12px 16px;
+    background-color: #30B868;
 }
